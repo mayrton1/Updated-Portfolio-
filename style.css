@@ -1,7 +1,4 @@
 
-
-
-
   *{
     box-sizing: border-box;
   }
@@ -36,7 +33,7 @@
   }
   
   body {
-    background: url("../images/stars background.jpg");
+    background: url("../images/space stars.png");
     font-size: 18px;
     line-height: 34px;
     font-family: 'Georgia', Times, Times New Roman, serif,
