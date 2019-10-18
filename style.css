@@ -19,7 +19,7 @@
   }
   
   
-  /* header 92px + margin 30px + section margin 40px + footer 42px = 204px */
+  
   #main-container {
     margin-bottom: 30px;
     min-height: calc(100vh - 204px);
@@ -33,7 +33,7 @@
   }
   
   body {
-    background: url("../images/space stars.png");
+    background-image: url("../images/concrete_seamless.png");
     font-size: 18px;
     line-height: 34px;
     font-family: 'Georgia', Times, Times New Roman, serif,
@@ -79,7 +79,7 @@
   }
   
   #masthead {
-    background: #ffffff;
+    background-color: rgb(255, 145, 0);
     margin: 0 0 30px;
     z-index: 99;
     color: #ffffff;
@@ -102,6 +102,9 @@
     text-decoration: none;
   }
   
+  .a{
+    color:black;
+  }
   nav {
     float: right;
     margin-top: 25px;
@@ -159,8 +162,7 @@
   }
   
   
-  /* PORTFOLIO PAGE */
-  /* Images */
+
   #portfolio-page .work>img {
     display: block;
     width: auto;
@@ -208,27 +210,26 @@
   }
   
   
-  /* IMAGE HOVER ZOOM */
-  /* [1] The Container */
+  
   .img-hover-zoom {
-    /* Hide the overflowing of child elements  */
+   
     overflow: hidden;
   }
   
   
-  /* [2] Transition property for smooth transformation of images */
+  
   .img-hover-zoom img {
     transition: transform .5s ease;
   }
   
-  /* [3] Finally, transforming the image when container gets hovered */
+  
   .img-hover-zoom img:hover {
     cursor: pointer;
     transform: scale(1.1);
     opacity: .8;
   }
   
-  /* CONTACT PAGE */
+  
   #contact-form ul {
     margin-bottom: 20px;
   
